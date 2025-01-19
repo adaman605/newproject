@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.present{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+.head{
+
+    offset-path: path('M249.994 8 L280 8 C300 8 350 8 355 55 ');
+
+    width: max-content;
+
+
+    width: 11vw;
+    height: 1vw;
+    background-color: red;
+    box-shadow: 0px 0px 20px 0px;
+
+    
+
+    animation-name: open;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes open {
+
+    100%{
+
+        offset-distance: 100%;
+
+
+    }
+}
+
+
+.prouzek1{
+    height: 1vw;
+    width: 2vw;
+    margin: auto;
+    background-color: yellow;
+}
+
+.body{
+    height: 10vw;
+    width: 10vw;
+    margin:  auto;
+    background-color: red;
+    box-shadow: 0px 0px 20px 0px;                                                                                                                        
+    
+}
+.prouzek2{
+    height: 10vw;
+    width: 2vw;
+    margin: auto;
+    background-color: yellow;
+}
+
+button{
+    margin: 1vw;
+    padding: 0.8vw 1.2vw;
+    
+}
+
+.ribbon{
+    width: max-content;
+    margin: 10vw auto 0 auto;
+    display: flex;
+    
+}
+
+
+
+.ribbon1{
+    background-color: yellow;
+    width: 3vw;
+    height: 3vw;
+
+    border-radius: 50% 50% 0 ;
+
+}
+.ribbon2{
+    background-color: yellow;
+    width: 3vw;
+    height: 3vw;
+
+    border-radius:  50% 50% 50% 0px ;
+}
